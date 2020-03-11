@@ -1,0 +1,66 @@
+
+body{
+	margin: 0;
+	background-color:#FEDAF8;
+	}
+		
+header{
+	background-color: #FF1493;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+	}
+
+#divtituloblog {
+	width: 100%;
+	text-align: center;
+}
+		
+.indice{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 70px
+	}
+		/* no va a funcionar height 100% --> error programación */
+
+
+#divmenu {
+	background-color: #F3B7E9; 
+	height: 7vh;
+	display: flex;
+	align-items: center;
+
+}
+
+#ulmenu{
+		margin: 0;
+		display: flex;
+		padding-inline-start: 0px;
+		width: 100%
+		text-align: center;
+
+}
+
+li.menu{
+	list-style: none;
+	font-size: 1.1em;
+	display: inline;
+	margin-right: 20px;
+
+	
+}
+
+a.amenu{
+	color: #FF1493;
+	text-decoration: none;
+}
+
+a.amenu:hover{
+	cursor: pointer;
+}
+
+
+
